@@ -601,7 +601,10 @@ void AHomeworkCharacter::ClientClearWeapon_Implementation()
 {
 	AWeaponBaseClient* CurrentClientWeapon = GetCurrentClientWeapon();
 	if (CurrentClientWeapon)
+	{
 		CurrentClientWeapon->Destroy();
+		CurrentClientWeapon = nullptr;
+	}
 }
 
 #pragma endregion
@@ -990,9 +993,15 @@ void AHomeworkCharacter::Dead(AActor* DamageCauser, bool IsDown)
 	// ·þÎñ¶Ë
 	MultiDead(IsDown);
 	if (ClientPrimaryWeapon)
+	{
 		ClientPrimaryWeapon->Destroy();
+		ClientPrimaryWeapon = nullptr;
+	}
 	if (ServerPrimaryWeapon)
+	{
 		ServerPrimaryWeapon->Destroy();
+		ServerPrimaryWeapon = nullptr;
+	}
 	if (ClientSecondWeapon)
 		ClientSecondWeapon->Destroy();
 	if (ServerSecondWeapon)
@@ -1110,7 +1119,7 @@ void AHomeworkCharacter::BeginPlay()
 	IsAiming = false;
 	IsFirstTouch = true;
 	CurGrenade = nullptr;
-	TestWeapon = FMath::RandRange(0, 1) == 0 ? EWeaponType::FPS : EWeaponType::Sniper;
+	TestWeapon = FMath::RandRange(0, 2) > 0 ? EWeaponType::FPS : EWeaponType::Sniper;
 	ScreenControl = CreateWidget<UMyUserWidget>(GetWorld(), ScreenControlBPClass);
 	ScreenControl->SetCurrPawn(this);
 	ScreenControl->AddToViewport();
