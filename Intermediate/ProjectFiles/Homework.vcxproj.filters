@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Homework.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0BE66D9A-AE1F-4C2B-825E-E76C04D2D5A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Homework.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HomeworkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Homework.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{B76C200E-5B0D-429E-A4E9-51A0D7BDEF35}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Homework">
+      <UniqueIdentifier>{9CE8F2DB-9537-4E52-8FC8-587ECAF8885F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Homework\Homework.Build.cs">
+      <Filter>Source\Homework</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Homework\Homework.cpp">
+      <Filter>Source\Homework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Homework\Homework.h">
+      <Filter>Source\Homework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Homework\HomeworkCharacter.cpp">
+      <Filter>Source\Homework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Homework\HomeworkCharacter.h">
+      <Filter>Source\Homework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Homework\HomeworkGameMode.cpp">
+      <Filter>Source\Homework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Homework\HomeworkGameMode.h">
+      <Filter>Source\Homework</Filter>
+    </ClInclude>
+    <Filter Include="Source\Homework\Private">
+      <UniqueIdentifier>{58A891A7-A905-4908-A28B-484346F51F97}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Homework\Private\AICharacter.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\AICharacterController.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\Grenade.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\KisMetMultiFPSLibrary.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\MultiFPSPlayerController.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\MyUserWidget.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\WeaponBaseClient.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Homework\Private\WeaponBaseServer.cpp">
+      <Filter>Source\Homework\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Homework\Public">
+      <UniqueIdentifier>{5A747499-0E31-4B2F-A81A-45C352B0526A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Homework\Public\AICharacter.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\AICharacterController.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\Grenade.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\KisMetMultiFPSLibrary.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\MultiFPSPlayerController.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\MyUserWidget.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\WeaponBaseClient.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Homework\Public\WeaponBaseServer.h">
+      <Filter>Source\Homework\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
